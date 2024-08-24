@@ -1,0 +1,15 @@
+/* src/components/ImageUploader.css */
+.social-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #001529;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .social-footer a {
+    color: #fff;
+  }
+  

@@ -1,0 +1,26 @@
+/* src/components/Testimonials/Testimonials.css */
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: auto;
+    line-height: 160px;
+    background: #fff;
+    overflow: hidden;
+  }
+  
+  .ant-carousel .slick-dots li button {
+    background: #1890ff;
+  }
+  
+  .ant-carousel .slick-dots li.slick-active button {
+    background: #40a9ff;
+  }
+  
+  .testimonial-image {
+    align-items: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
