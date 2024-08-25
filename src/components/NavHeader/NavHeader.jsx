@@ -16,7 +16,7 @@ const NavHeader = () => {
           <Link to="/">Upload</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to="/about">About</Link>
+          <Link to="/upcomming-features">Upcoming features </Link>
         </Menu.Item>
         <Menu.Item key="3">
           <Link to="/contact">Contact</Link>
@@ -25,7 +25,7 @@ const NavHeader = () => {
           <Link to="/services">Services</Link>
         </Menu.Item>
         <Menu.Item key="5">
-          <Link to="/report">Report</Link>
+          {/* <Link to="/report">Report</Link> */}
         </Menu.Item>
         
       </Menu>

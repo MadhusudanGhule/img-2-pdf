@@ -10,6 +10,7 @@ import Services from './components/Services/Services';
 import CreateReport from './components/InventoryReport/CreateReport'
 import Start from './components/InventoryReport/Start';
 import ReportSteps from './components/InventoryReport/ReportSteps';
+import UpcomingFeatures from './components/UpcomingFeatures/UpcomingFeatures';
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
             <Route path='/report' element={<CreateReport />} />
             <Route path='/report/start' element={<Start />} />
             <Route path='/report/start/edit' element={<ReportSteps />} />
+            <Route path='/upcomming-features' element={<UpcomingFeatures/>}/>
           </Routes>
           <SocialFooter />
         </BrowserRouter>
